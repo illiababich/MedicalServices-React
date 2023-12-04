@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .login-page-size {
+    @apply inline-flex justify-center items-center w-full p-0 h-screen md:space-x-20;
+  }
+
+  .image-size {
+    @apply hidden md:block md:w-[250px] lg:w-[500px];
+  }
+
+  .form-size {
+    @apply w-full xs:w-[450px] lg:w-[500px] h-[600px];
+  }
+
+  .form-container-size {
+    @apply w-10/12 h-[420px];
+  }
+
+  .form-component-width {
+    @apply w-10/12;
+  }
+
+  .form-input {
+    @apply w-10/12 h-[50px] rounded-lg bg-light-blue outline-blue-active outline-2 shadow-inner;
+  }
+
+  .form-button {
+    @apply w-10/12 h-[50px] bg-blue rounded-lg text-white active:bg-blue-active;
+  }
+
+  .form-lines {
+    @apply w-5/12 h-px border-gray-500;
+  }
+
+  .link-text {
+    @apply underline text-blue;
+  }
+}

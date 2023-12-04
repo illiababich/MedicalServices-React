@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .navBarDropdownLink {
+    @apply relative w-full h-[50px] text-left font-semibold text-xl hover:text-blue inline-flex;
+  }
+}
